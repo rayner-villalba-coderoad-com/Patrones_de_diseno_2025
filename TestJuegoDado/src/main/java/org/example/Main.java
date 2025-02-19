@@ -6,7 +6,7 @@ public class Main {
 
         Dado dado = new Dado(6);
 
-        Jugador jugador = new Jugador(dado, 2);
+        Jugador jugador = new Jugador(dado, 3);
         boolean gano = jugador.jugar();
 
         String mensaje = gano ? "GANO" : "NO GANO";

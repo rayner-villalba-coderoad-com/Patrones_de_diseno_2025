@@ -24,7 +24,7 @@ public class JugadorTest {
         //Primero simulamos a la clase con la libreria Mockito
         Dado dado = Mockito.mock(Dado.class);
         //Cuando ejecutemos la funcion lanzar de la clase Dado siempre retornará 2
-        Mockito.when(dado.lanzar()).thenReturn(5);
+        Mockito.when(dado.lanzar()).thenReturn(7);
 
         Jugador jugador = new Jugador(dado, 3);
 
