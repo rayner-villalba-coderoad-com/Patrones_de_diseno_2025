@@ -16,6 +16,10 @@ public class FeedParserCsv implements FeedParser {
             }
         }
 
+        for(Flower flower: flowersData) {
+            System.out.println(flower.getName());
+        }
+
         return flowersData;
     }
 }

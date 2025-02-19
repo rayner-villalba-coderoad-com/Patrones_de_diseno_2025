@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.List;
 
-public class FeedParserJson implements FeedParser {
+public class FeedParserJson {
 //    @Override
 //    public List<Flower> parse(String content) {
 //        ObjectMapper objectMapper = new ObjectMapper();
